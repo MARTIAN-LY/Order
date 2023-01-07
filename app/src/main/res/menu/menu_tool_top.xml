@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_dining"
+        android:title="订单" />
+    <item
+        android:id="@+id/manageFragment"
+        android:icon="@drawable/ic_tools"
+        android:title="商户" />
+    <item
+        android:id="@+id/infoFragment"
+        android:icon="@drawable/ic_myself"
+        android:title="食堂" />
+</menu>
