@@ -1,4 +1,4 @@
-package com.yuan.order.util.http
+package com.yuan.order.util
 
 import com.google.gson.Gson
 import okhttp3.OkHttpClient

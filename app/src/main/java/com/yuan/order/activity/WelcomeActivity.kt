@@ -4,8 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import com.yuan.order.R
-import com.yuan.order.util.http.NetConstants
-import com.yuan.order.util.http.NetUtils
+import com.yuan.order.util.NetConstants
+import com.yuan.order.util.NetUtils
 import okhttp3.*
 import java.io.IOException
 

@@ -9,11 +9,10 @@ import androidx.core.widget.doOnTextChanged
 import com.yuan.order.R
 import com.yuan.order.databinding.ActivityRegisterBinding
 import com.yuan.order.util.InputUtils
-import com.yuan.order.util.http.NetConstants
-import com.yuan.order.util.http.NetUtils
+import com.yuan.order.util.NetConstants
+import com.yuan.order.util.NetUtils
 import okhttp3.*
 import java.io.IOException
-import kotlin.concurrent.thread
 
 class RegisterActivity : BaseActivity() {
 

@@ -1,4 +1,4 @@
-package com.yuan.order.util.http
+package com.yuan.order.util
 
 class ErrorReceive {
     val errCode = 0

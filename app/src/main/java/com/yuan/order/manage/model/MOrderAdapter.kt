@@ -30,7 +30,7 @@ class MOrderAdapter :
                 textMorderSingle.text = "单价：${dish.price}元"
                 textMorderTotal.text = "合计 ${dish.price * num} 元"
                 btnMorderBuy.setOnClickListener {
-                    Toast.makeText(root.context,"购买成功",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(root.context, "购买成功", Toast.LENGTH_SHORT).show()
                     textState.text = "已付款"
                     btnMorderBuy.visibility = View.GONE
                 }
@@ -39,5 +39,4 @@ class MOrderAdapter :
     }
 
     override fun getItemCount() = MainActivity.dishList.size
-//    override fun getItemCount() = 0
 }

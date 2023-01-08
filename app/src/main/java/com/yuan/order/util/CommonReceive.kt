@@ -1,4 +1,4 @@
-package com.yuan.order.util.http
+package com.yuan.order.util
 
 data class CommonReceive(
     val status: String,
